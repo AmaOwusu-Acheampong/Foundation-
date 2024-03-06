@@ -1,0 +1,198 @@
+
+h3{
+    color:#205957
+}
+body{
+    background-color:#ffffff;
+    font-size: 120%;
+    color:#000000;
+    font-weight: 500;
+    
+}
+
+.active {
+    background-color: blue;
+    color: blue;
+}
+
+h1{
+    color:black;
+    text-align: center;
+    font-size: 150%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h3{
+    color: #17689a;
+}
+
+button{
+    font-weight: bold;
+
+}
+
+button:hover{
+    background-color:#4f8fb8;
+}
+
+title{
+    text-align: center;
+
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: darkcyan;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:darkcyan;
+    color: white;
+  }
+
+
+  @font-face {
+    font-family: 'Sucrose Bold Two';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2');
+    }
+@font-face {
+font-family: 'IM Fell French Canon Pro';
+src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2') format('woff2');
+}
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+}
+header { 
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg) no-repeat;
+padding-top: 63%;
+background-size: cover;
+font-family: 'Sucrose Bold Two';
+
+}
+header img {
+position: absolute;
+top: 0;
+right: 0;
+width: 45.8%;
+}
+header h1 { 
+position: fixed;
+top: 4rem;
+right: 2rem;
+font-size: 12vw;
+line-height: .8;
+margin-top: 0;
+text-align: center;
+}
+header h1 span {
+display: block;
+font-size: 8.75vw;
+}
+main { 
+background: #fff;
+position: relative;
+border: 1px solid #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.4rem;
+padding: 2rem 15%;
+line-height: 1.6;
+}
+@media all and (max-width: 400px) {
+main { padding: 2rem; }
+}
+
+
+/* about us */
+
+.bio_contianer{
+    display: flex;
+}
+
+.profile{
+    margin-top: 2.5em;
+    margin-right: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.bio{
+    display: flex;
+    align-items: left;
+    justify-content: left
+}
+
+.profile img{
+    justify-self: center;
+    height: 150px;
+    width:150px;
+}
+
+.temp > .name{
+    color: darkblue;
+    font-size: larger;
+}
+
+
+/* Flowchart + Pseudocode */
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.ayay{
+    width: 1050px;
+    height: 490px;
+}
+
+.ayay img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150%;
+    width: 150%;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 1em;
+    color: darkcyan;
+    background-color: #333;
+    text-align: center;
+    }
+    
+    footer > a{
+      color: darkcyan;
+      text-decoration: none;
+    }
+    
+    footer > a:hover{
+      color: white;
+    }
